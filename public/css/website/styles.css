@@ -1,0 +1,49 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-layanan{
+    background-color: #3B7C7F;
+    color: white;
+}
+.btn-layanan:hover{
+    background-color: #0fb9b1;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+div.card {
+    width: 250px;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 576px) {
+    .mySwiper{
+        width: 100%;
+    }
+}
